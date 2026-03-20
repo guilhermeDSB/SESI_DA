@@ -53,7 +53,7 @@
             font-weight: 700;
         }
 
-        /* Custom height for the input boxes to match original site */
+        /* Altura personalizada para as caixas de entrada para corresponder ao site original */
         .input-box-height {
             height: 54px;
         }
@@ -61,8 +61,7 @@
 </head>
 <body class="bg-login-background min-h-screen flex flex-col justify-center items-center font-sans antialiased relative overflow-hidden">
     
-    <!-- Camada de escurecimento (Overlay) -->
-    <div class="absolute inset-0 bg-black/30 z-0"></div>
+    <!-- Camada de escurecimento removida para mostrar o fundo original claramente -->
 
     <div class="z-10 w-full max-w-[340px] flex flex-col-reverse items-center">
         
